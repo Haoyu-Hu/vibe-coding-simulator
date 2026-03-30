@@ -1,5 +1,7 @@
 # Vibe Coding Simulation
 
+## **[[Blog] Simulating Real-World Vibe Coding with Different Kinds of Users](https://storage.googleapis.com/haoyu-hu-site-static-421993373145/blog/simulating-vibe-coding.html)**
+
 ![Figure inspiration](figure/figure-inspiration.png)
 
 ## Overview
