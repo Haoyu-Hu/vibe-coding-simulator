@@ -1,5 +1,7 @@
 # Vibe Coding Simulation
 
+![Figure inspiration](figure/figure-inspiration.png)
+
 ## Overview
 
 This project studies **multi-round vibe coding** as a controlled experiment.
