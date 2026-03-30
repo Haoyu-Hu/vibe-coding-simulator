@@ -1,0 +1,28 @@
+{
+  "description": "Default configuration for vibe-coding user simulator knowledge level sampling.",
+  "level_labels": {
+    "1": "no coding background",
+    "2": "low coding literacy",
+    "3": "beginner coder",
+    "4": "intermediate coder",
+    "5": "advanced coder",
+    "6": "expert developer"
+  },
+  "level_distribution": {
+    "description": "Categorical weight vector approximating a normal distribution over levels 1-6. Centered near 3-4. Weights are normalized at runtime.",
+    "weights": [0.05, 0.15, 0.25, 0.30, 0.15, 0.10],
+    "levels": [1, 2, 3, 4, 5, 6]
+  },
+  "user_simulator_defaults": {
+    "word_limit": 120,
+    "memory_window": 2,
+    "temperature": 0.7,
+    "max_tokens": 300
+  },
+  "tester_defaults": {
+    "public_test_budget": 4,
+    "hidden_test_budget": 12,
+    "test_timeout_seconds": 15,
+    "max_feedback_words": 80
+  }
+}
